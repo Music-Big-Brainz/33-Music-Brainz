@@ -1,5 +1,17 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import SearchPage from '../../containers/SearchPage';
 
-export default function App() {
-  return <h1>Hello World</h1>;
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <Router>
+          <Switch>
+            <Route exact path="/" component={SearchPage} />
+          </Switch>
+        </Router>
+      </div>
+    );
+  }
 }
