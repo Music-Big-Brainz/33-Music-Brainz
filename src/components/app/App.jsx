@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import ArtistByName from '../../containers/ArtistByName';
+import SearchPage from '../../containers/SearchPage';
 
 export default class App extends Component {
   render() {
@@ -8,7 +8,7 @@ export default class App extends Component {
       <div>
         <Router>
           <Switch>
-            <Route exact path="/" component={ArtistByName} />
+            <Route exact path="/" component={SearchPage} />
           </Switch>
         </Router>
       </div>
