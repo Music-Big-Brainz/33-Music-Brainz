@@ -13,7 +13,7 @@ export default class App extends Component {
               exact path="/" 
               component={SearchPage} />
             <Route 
-              exact path="/:id" 
+              exact path="/releases/:artistId"
               render={ (routerProps) => <AlbumPage {...routerProps} /> } />
           </Switch>
         </Router>

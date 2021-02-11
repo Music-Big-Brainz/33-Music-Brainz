@@ -1,16 +1,16 @@
+/* eslint-disable react/prop-types */
 import React, { Component } from 'react';
 import AlbumList from '../components/albums/AlbumList';
 import { findAlbumsByArtistId } from '../services/musicBrainzAPI';
 
 export default class AlbumPage extends Component {
   state = {
-    albumId: this.match.params.id,
     albums: [],
-    loading: true,
+    loading: true
   }
 
   componentDidMount() {
-    findAlbumsByArtistId(this.state.albumId)
+    findAlbumsByArtistId(this.props.match.params.artistId)
       .then((albums) => {
         this.setState({ albums, loading: false });
       });
@@ -18,9 +18,10 @@ export default class AlbumPage extends Component {
 
   render(){
     const { albums } = this.state;
+    console.log(albums);
     return ( 
       <>
-        <AlbumList albums={albums} />
+        <AlbumList releases={albums} />
       </>
     );
   }

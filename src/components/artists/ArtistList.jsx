@@ -4,11 +4,11 @@ import Artist from './Artist';
 
 const ArtistList = ({ artists }) => {
   const artistElements = artists.map(artist => (
-    <li key={artist.id}>
+    <li key={artist.artistId}>
       <Artist 
         name={artist.name}
         disambiguation={artist.disambiguation}
-        id={artist.id}
+        artistId={artist.artistId}
       />
     </li>
   ));
@@ -19,7 +19,7 @@ const ArtistList = ({ artists }) => {
 ArtistList.propTypes = {
   artists: PropTypes.arrayOf(
     PropTypes.shape({
-      id: PropTypes.string.isRequired,
+      artistId: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
       disambiguation: PropTypes.string.isRequired,
     })
