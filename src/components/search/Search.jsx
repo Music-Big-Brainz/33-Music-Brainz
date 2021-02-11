@@ -1,18 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Search = ({ search, onSubmit }) => (
+const Search = ({ search, onSubmit, onChange }) => (
   <div>
-    <form>
-      <input type="text" value={search} />
-      <button onSubmit={onSubmit} />
+    <form onSubmit={onSubmit}>
+      <input type="text" value={search} onChange={onChange} />
+      <button>Search</button>
     </form>
   </div>
 );
 
 Search.propTypes = {
   search: PropTypes.string.isRequired,
-  onSubmit: PropTypes.func.isRequired
+  onSubmit: PropTypes.func.isRequired,
+  onChange: PropTypes.func.isRequired
 };
 
 export default Search;
