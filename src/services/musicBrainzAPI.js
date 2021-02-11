@@ -1,4 +1,4 @@
-export const findArtists = () => {
+export const findPrince = () => {
   return fetch('http://musicbrainz.org/ws/2/artist?query=prince&fmt=json&limit=25'
   )
     .then((res)  => res.json())
