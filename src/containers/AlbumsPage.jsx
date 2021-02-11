@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
 import ArtistList from '../components/artists/ArtistList';
 import Search from '../components/search/Search';
-import { findArtistByName } from '../services/musicBrainzAPI';
+import { findAlbumsByArtistId } from '../services/musicBrainzAPI';
 
 export default class SearchPage extends Component {
   state = {
-    search: 'Prince',
-    artists: [],
+    albums: [],
     loading: true,
   }
 
   componentDidMount() {
-    findArtistByName(this.state.search)
+    findAlbumsByArtistId(this.state.search)
       .then((artists) => {
         this.setState({ artists, loading: false });
       });
@@ -25,7 +24,7 @@ export default class SearchPage extends Component {
     e.preventDefault();
     const { search, artists } = this.state;
     this.setState({ search, artists, loading: true });
-    findArtistByName(search)
+    findAlbumsByArtistId(search)
       .then((artists) => {
         this.setState({ artists, loading: false });
       });

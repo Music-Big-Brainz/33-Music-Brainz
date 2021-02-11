@@ -11,3 +11,17 @@ export const findArtistByName = (search) => {
       }))
     );
 };
+
+export const findAlbumsByArtistId = (search) => {
+  return fetch(
+    `http://musicbrainz.org/ws/2/release?artist=${search}&fmt=json`
+  )
+    .then((res) => res.json())
+    .then(({ releases }) =>
+      releases.map((release) => ({
+        albumId: release.id,
+        date: release.date,
+        title: release.title
+      }))
+    );
+};
