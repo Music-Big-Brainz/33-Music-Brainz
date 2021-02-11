@@ -5,9 +5,23 @@ export const findArtistByName = (search) => {
     .then((res) => res.json())
     .then(({ artists }) =>
       artists.map((artist) => ({
-        id: artist.id,
+        artistId: artist.id,
         name: artist.name,
-        disambiguation: artist.disambiguation,
+        disambiguation: artist.disambiguation || 'Not found'
+      }))
+    );
+};
+
+export const findAlbumsByArtistId = (id) => {
+  return fetch(
+    `http://musicbrainz.org/ws/2/release?artist=${id}&fmt=json`
+  )
+    .then((res) => res.json())
+    .then(({ releases }) =>
+      releases.map((release) => ({
+        albumId: release.id,
+        date: release.date,
+        title: release.title
       }))
     );
 };

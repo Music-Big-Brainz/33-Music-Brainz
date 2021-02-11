@@ -36,7 +36,7 @@ export default class SearchPage extends Component {
     return ( 
       <>
         <Search 
-          value={search} 
+          search={search} 
           onSubmit={this.onSubmit} 
           onChange={this.onChange} />
         <ArtistList artists={artists} />
