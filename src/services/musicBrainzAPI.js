@@ -23,5 +23,3 @@ export const findArtistByName = (artist) => {
       }))
     );
 };
-
-export default findArtistByName;
