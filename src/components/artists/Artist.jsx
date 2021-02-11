@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 const Artist = ({ id, name, disambiguation }) => (
-  <Link to={`${id}`}>
+  <Link to={`/${id}`}>
     <figure>
       <p>{name}</p>
       <p>{disambiguation}</p>

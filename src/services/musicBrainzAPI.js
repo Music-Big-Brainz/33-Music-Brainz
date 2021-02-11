@@ -12,9 +12,9 @@ export const findArtistByName = (search) => {
     );
 };
 
-export const findAlbumsByArtistId = (search) => {
+export const findAlbumsByArtistId = (id) => {
   return fetch(
-    `http://musicbrainz.org/ws/2/release?artist=${search}&fmt=json`
+    `http://musicbrainz.org/ws/2/release?artist=${id}&fmt=json`
   )
     .then((res) => res.json())
     .then(({ releases }) =>

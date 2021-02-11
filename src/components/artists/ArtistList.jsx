@@ -8,6 +8,7 @@ const ArtistList = ({ artists }) => {
       <Artist 
         name={artist.name}
         disambiguation={artist.disambiguation}
+        id={artist.id}
       />
     </li>
   ));
