@@ -7,6 +7,10 @@ const Album = ({ albumId, title, date }) => (
     <figure>
       <p>{title}</p>
       <p>{date}</p>
+      <img 
+        src={`http://coverartarchive.org/release/${albumId}/front`}
+        alt="No album art"
+        style={{ width: '175px' }} />
     </figure>
   </Link>
 );

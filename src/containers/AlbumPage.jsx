@@ -18,7 +18,6 @@ export default class AlbumPage extends Component {
 
   render(){
     const { albums } = this.state;
-    console.log(albums);
     return ( 
       <>
         <AlbumList releases={albums} />

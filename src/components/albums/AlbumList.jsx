@@ -5,10 +5,7 @@ import Album from './Album';
 const AlbumList = ({ releases }) => {
   const albumElements = releases.map(release => (
     <li key={release.id}>
-      <Album
-        title={release.title}
-        date={release.date}
-      />
+      <Album {...release} />
     </li>
   ));
 
