@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 
 const Artist = ({ id, name, disambiguation }) => (
   <Link to={`${id}`}>
-    <h1>hi</h1>
     <figure>
       <p>{name}</p>
       <p>{disambiguation}</p>
