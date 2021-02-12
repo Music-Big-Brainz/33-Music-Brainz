@@ -6,10 +6,7 @@ const AlbumList = ({ releases }) => {
   console.log(releases)
   const albumElements = releases.map(release => (
     <li key={release.id}>
-      <Album
-        title={release.title}
-        date={release.date}
-      />
+      <Album {...release} />
     </li>
   ));
 

@@ -25,3 +25,16 @@ export const findAlbumsByArtistId = (id) => {
       }))
     );
 };
+
+export const findRecordingsByAlbumId = (id) => {
+  return fetch(
+    `http://musicbrainz.org/ws/2/recording?release=${id}&fmt=json`
+  )
+    .then((res) => res.json())
+    .then(({ recordings }) => 
+      recordings.map((recording) => ({
+        recordingId: recording.id,
+        songTitle: recording.title
+      }))
+    );
+};
