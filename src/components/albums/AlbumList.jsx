@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Album from './Album';
 
+
 const AlbumList = ({ releases, name }) => {
   const albumElements = releases.map(release => (
     <li key={release.albumId}>

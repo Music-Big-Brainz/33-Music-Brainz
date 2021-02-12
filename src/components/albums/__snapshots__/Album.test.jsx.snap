@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`displays an album renders one single album 1`] = `
+<DocumentFragment>
+  <a
+    href="/undefined"
+  >
+    <figure>
+      <p />
+      <p />
+    </figure>
+  </a>
+</DocumentFragment>
+`;
