@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 const Album = ({ albumId, title, date }) => (
-  <Link to={`${albumId}`}>
-    <figure>
+  <Link to={`/releases/title/${albumId}/${title}`}>
+    <figure key={albumId}>
       <p>{title}</p>
       <p>{date}</p>
       <img 
