@@ -2,9 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-const Artist = ({ id, name, disambiguation }) => (
-  <Link to={`${id}`}>
-    <h1>hi</h1>
+const Artist = ({ artistId, name, disambiguation }) => (
+  <Link to={`/releases/${artistId}`}>
     <figure>
       <p>{name}</p>
       <p>{disambiguation}</p>
@@ -13,7 +12,7 @@ const Artist = ({ id, name, disambiguation }) => (
 );
 
 Artist.propTypes = {
-  id: PropTypes.string.isRequired,
+  artistId: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   disambiguation: PropTypes.string.isRequired,
 };

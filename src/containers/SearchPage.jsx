@@ -1,20 +1,24 @@
 import React, { Component } from 'react';
 import ArtistList from '../components/artists/ArtistList';
-import findArtistByName from '../services/musicBrainzAPI';
+import Search from '../components/search/Search';
+import { findArtistByName } from '../services/musicBrainzAPI';
 
 export default class SearchPage extends Component {
   state = {
-    search: '',
+    search: 'Prince',
     artists: [],
-    loading: false,
+    loading: true,
   }
 
-  async componentDidMount() {
-    this.setState({ loading: true });
-    await findArtistByName()
+  componentDidMount() {
+    findArtistByName(this.state.search)
       .then((artists) => {
         this.setState({ artists, loading: false });
       });
+  }
+
+  onChange = ({ target }) => {
+    this.setState({ search: target.value });
   }
 
   onSubmit = (e) => {
@@ -29,12 +33,14 @@ export default class SearchPage extends Component {
 
   render(){
     const { search, artists } = this.state;
-    return (
+    return ( 
       <>
-        {/* <Search value={search} onSubmit={this.onSubmit} /> */}
-        <ArtistList artist={artists} />
+        <Search 
+          search={search} 
+          onSubmit={this.onSubmit} 
+          onChange={this.onChange} />
+        <ArtistList artists={artists} />
       </>
     );
   }
-
 }
