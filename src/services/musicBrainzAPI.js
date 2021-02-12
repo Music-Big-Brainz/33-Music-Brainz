@@ -38,3 +38,12 @@ export const findRecordingsByAlbumId = (id) => {
       }))
     );
 };
+
+export const findLyricsByAristAndRecording = (artist, recording) => {
+  return fetch(
+    `https://api.lyrics.ovh/v1/${artist}/${recording}`
+  )
+    .then((res) => res.json())
+    .then(json => json.lyrics);
+};
+
