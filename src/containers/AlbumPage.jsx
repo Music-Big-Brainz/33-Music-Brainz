@@ -20,7 +20,7 @@ export default class AlbumPage extends Component {
     const { albums } = this.state;
     return ( 
       <>
-        <AlbumList releases={albums} />
+        <AlbumList releases={albums} name={this.props.match.params.name} />
       </>
     );
   }
