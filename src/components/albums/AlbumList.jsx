@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Album from './Album';
 
 const AlbumList = ({ releases }) => {
+  console.log(releases)
   const albumElements = releases.map(release => (
     <li key={release.id}>
       <Album
