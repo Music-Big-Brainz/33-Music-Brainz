@@ -18,10 +18,9 @@ export default class AlbumPage extends Component {
 
   render(){
     const { albums } = this.state;
-    console.log(albums);
     return ( 
       <>
-        <AlbumList releases={albums} />
+        <AlbumList releases={albums} name={this.props.match.params.name} />
       </>
     );
   }
