@@ -19,9 +19,10 @@ export default class RecordingPage extends Component {
   render(){
     const { songs } = this.state;
     return ( 
+      
       <>
-
-        <RecordingList recordings={songs} />
+        <RecordingList recordings={songs}/>
+        
         <RecordingList 
           recordings={songs} 
           name={this.props.match.params.name} 

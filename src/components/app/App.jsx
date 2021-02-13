@@ -13,7 +13,7 @@ export default class App extends Component {
     return (
       <div>
         <Router>
-          {/* <Header className={styles.Header} /> */}
+          <Header className={styles.Header} />
           <Switch>
             <Route 
               exact 
