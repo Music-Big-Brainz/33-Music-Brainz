@@ -2,8 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
+
 const Album = ({ name, albumId, title, date }) => (
   <Link to={`/releases/${name}/title/${albumId}/${title}`}>
+
     <figure key={albumId}>
       <p>{title}</p>
       <p>{date}</p>
