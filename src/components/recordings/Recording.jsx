@@ -3,19 +3,13 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 
-const RecordingList = ({ recordings, name, albumId }) => {
-  const { title } = useParams();
-  const recordingElements = recordings.map(recording => (
-    <li key={recording.id}>
-      <Recording {...recording} name={name} albumId={albumId} />
-    </li>
-  ));
-
+const Recording = ({ recordingId, songTitle, name, albumId }) => {
   return (
-    <>
-      <h1>{title}</h1>
-      <ul>{recordingElements}</ul>;
-    </>
+    <Link to={`/releases/${name}/title/${albumId}/${songTitle}/${songTitle}`}>
+      <figure key={recordingId}>
+        <p>{songTitle}</p>
+      </figure>
+    </Link>
   );
 };
 
