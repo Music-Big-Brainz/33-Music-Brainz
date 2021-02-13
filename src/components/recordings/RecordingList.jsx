@@ -9,6 +9,7 @@ const RecordingList = ({ recordings }) => {
   const recordingElements = recordings.map(recording => (
     <li key={recording.id}>
       <Recording {...recording} />
+    </li>
 
 const RecordingList = ({ recordings, name, albumId }) => {
   const { title } = useParams();

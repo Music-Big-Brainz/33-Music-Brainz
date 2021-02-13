@@ -1,0 +1,22 @@
+{
+  "recording-offset": 0,
+  "recordings": [
+      {
+          "id": "2eb5645c-1f40-4c2b-8453-e0a17343b133",
+          "title": "Little Red Corvette",
+          "disambiguation": "single edit",
+          "first-release-date": "1982",
+          "video": false,
+          "length": 187667
+      },
+      {
+          "video": false,
+          "length": 217816,
+          "title": "1999",
+          "id": "392bd99f-4f36-4e5c-adbd-7287ab92c381",
+          "disambiguation": "single edit",
+          "first-release-date": "1982-09-24"
+      }
+  ],
+  "recording-count": 2
+}
