@@ -2,6 +2,8 @@
 
 exports[`displays a list of albums renders a list of albums 1`] = `
 <DocumentFragment>
-  <ul />
+  <ul
+    data-testid="albums"
+  />
 </DocumentFragment>
 `;

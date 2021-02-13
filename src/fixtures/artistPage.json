@@ -1,0 +1,1031 @@
+{
+    "release-offset": 0,
+    "releases": [
+        {
+            "barcode": "",
+            "country": "US",
+            "cover-art-archive": {
+                "front": true,
+                "artwork": true,
+                "darkened": false,
+                "count": 1,
+                "back": false
+            },
+            "quality": "normal",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "asin": null,
+            "disambiguation": "",
+            "id": "032c0dcf-32fb-48df-854c-c4ffdea82009",
+            "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+            "packaging": "Cardboard/Paper Sleeve",
+            "title": "1999 / Little Red Corvette",
+            "status": "Official",
+            "release-events": [
+                {
+                    "area": {
+                        "type": null,
+                        "iso-3166-1-codes": [
+                            "US"
+                        ],
+                        "sort-name": "United States",
+                        "type-id": null,
+                        "disambiguation": "",
+                        "id": "489ce91b-6658-3307-9877-795b68554c98",
+                        "name": "United States"
+                    },
+                    "date": "1982"
+                }
+            ],
+            "date": "1982"
+        },
+        {
+            "date": "1982-02-17",
+            "release-events": [
+                {
+                    "area": {
+                        "disambiguation": "",
+                        "id": "489ce91b-6658-3307-9877-795b68554c98",
+                        "name": "United States",
+                        "sort-name": "United States",
+                        "type-id": null,
+                        "type": null,
+                        "iso-3166-1-codes": [
+                            "US"
+                        ]
+                    },
+                    "date": "1982-02-17"
+                }
+            ],
+            "status": "Official",
+            "title": "Let’s Work / Gotta Stop (Messin’ About)",
+            "disambiguation": "",
+            "id": "09b9a7fa-28b5-40df-ab81-f7c88c84b318",
+            "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+            "packaging": "Cardboard/Paper Sleeve",
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "asin": null,
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "quality": "normal",
+            "cover-art-archive": {
+                "back": true,
+                "front": true,
+                "count": 4,
+                "darkened": false,
+                "artwork": true
+            },
+            "country": "US",
+            "barcode": ""
+        },
+        {
+            "date": "1977",
+            "release-events": [
+                {
+                    "date": "1977",
+                    "area": {
+                        "iso-3166-1-codes": [
+                            "US"
+                        ],
+                        "type": null,
+                        "sort-name": "United States",
+                        "type-id": null,
+                        "name": "United States",
+                        "id": "489ce91b-6658-3307-9877-795b68554c98",
+                        "disambiguation": ""
+                    }
+                }
+            ],
+            "status": "Bootleg",
+            "title": "Husney’s: A Work In Progress",
+            "id": "2801ffa1-a82d-4c16-8ec7-8d252ee65e0e",
+            "disambiguation": "",
+            "packaging-id": null,
+            "packaging": null,
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "asin": null,
+            "quality": "normal",
+            "cover-art-archive": {
+                "back": true,
+                "front": true,
+                "count": 4,
+                "artwork": true,
+                "darkened": false
+            },
+            "country": "US",
+            "barcode": ""
+        },
+        {
+            "country": "US",
+            "barcode": null,
+            "cover-art-archive": {
+                "front": true,
+                "count": 10,
+                "darkened": false,
+                "artwork": true,
+                "back": true
+            },
+            "asin": null,
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "quality": "normal",
+            "packaging-id": null,
+            "id": "281e42d6-389e-4224-9bc6-84220a62d50f",
+            "disambiguation": "",
+            "packaging": null,
+            "title": "Dirty Mind",
+            "release-events": [
+                {
+                    "date": "1980",
+                    "area": {
+                        "id": "489ce91b-6658-3307-9877-795b68554c98",
+                        "disambiguation": "",
+                        "name": "United States",
+                        "type": null,
+                        "iso-3166-1-codes": [
+                            "US"
+                        ],
+                        "sort-name": "United States",
+                        "type-id": null
+                    }
+                }
+            ],
+            "status": "Official",
+            "date": "1980"
+        },
+        {
+            "asin": null,
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "quality": "normal",
+            "id": "2e026904-84f4-4705-bb61-fd5b37007add",
+            "packaging-id": null,
+            "disambiguation": "",
+            "packaging": null,
+            "country": "GB",
+            "barcode": null,
+            "cover-art-archive": {
+                "front": true,
+                "artwork": true,
+                "darkened": false,
+                "count": 1,
+                "back": false
+            },
+            "date": "1983-01",
+            "title": "Dance Music Sex Romance",
+            "release-events": [
+                {
+                    "area": {
+                        "name": "United Kingdom",
+                        "disambiguation": "",
+                        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                        "iso-3166-1-codes": [
+                            "GB"
+                        ],
+                        "type": null,
+                        "type-id": null,
+                        "sort-name": "United Kingdom"
+                    },
+                    "date": "1983-01"
+                }
+            ],
+            "status": "Official"
+        },
+        {
+            "id": "379b191c-5dc7-4a27-b52b-43d0286a751d",
+            "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+            "disambiguation": "",
+            "packaging": "Cardboard/Paper Sleeve",
+            "quality": "normal",
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "asin": null,
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "cover-art-archive": {
+                "back": false,
+                "front": false,
+                "artwork": false,
+                "darkened": false,
+                "count": 0
+            },
+            "barcode": "",
+            "country": "DE",
+            "date": "1981",
+            "status": "Official",
+            "release-events": [
+                {
+                    "date": "1981",
+                    "area": {
+                        "name": "Germany",
+                        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                        "disambiguation": "",
+                        "iso-3166-1-codes": [
+                            "DE"
+                        ],
+                        "type": null,
+                        "sort-name": "Germany",
+                        "type-id": null
+                    }
+                }
+            ],
+            "title": "Controversy"
+        },
+        {
+            "date": "1982",
+            "release-events": [
+                {
+                    "area": {
+                        "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+                        "disambiguation": "",
+                        "name": "Europe",
+                        "type-id": null,
+                        "sort-name": "Europe",
+                        "type": null,
+                        "iso-3166-1-codes": [
+                            "XE"
+                        ]
+                    },
+                    "date": "1982"
+                }
+            ],
+            "status": "Official",
+            "title": "1999",
+            "id": "4b9bbd74-39ca-44bb-a5bb-a85022b61b5d",
+            "packaging": "Gatefold Cover",
+            "packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+            "disambiguation": "",
+            "asin": null,
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "quality": "normal",
+            "cover-art-archive": {
+                "back": false,
+                "count": 0,
+                "artwork": false,
+                "darkened": false,
+                "front": false
+            },
+            "country": "XE",
+            "barcode": "07599237201"
+        },
+        {
+            "release-events": [
+                {
+                    "area": {
+                        "iso-3166-1-codes": [
+                            "US"
+                        ],
+                        "type": null,
+                        "sort-name": "United States",
+                        "type-id": null,
+                        "name": "United States",
+                        "id": "489ce91b-6658-3307-9877-795b68554c98",
+                        "disambiguation": ""
+                    },
+                    "date": "1981"
+                }
+            ],
+            "status": "Official",
+            "title": "Controversy",
+            "date": "1981",
+            "cover-art-archive": {
+                "front": true,
+                "count": 6,
+                "artwork": true,
+                "darkened": false,
+                "back": true
+            },
+            "country": "US",
+            "barcode": "075992360111",
+            "id": "4f7d308b-f1bc-43b7-925d-57d2c39e02b4",
+            "packaging-id": null,
+            "packaging": null,
+            "disambiguation": "",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "asin": "B000091NHK",
+            "quality": "high"
+        },
+        {
+            "packaging": null,
+            "id": "5bc23ed2-a2a6-4496-9266-bf5114347214",
+            "packaging-id": null,
+            "disambiguation": "",
+            "quality": "normal",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "asin": null,
+            "cover-art-archive": {
+                "darkened": false,
+                "artwork": false,
+                "count": 0,
+                "front": false,
+                "back": false
+            },
+            "barcode": "",
+            "country": "US",
+            "date": "1979-08-24",
+            "status": "Official",
+            "release-events": [
+                {
+                    "area": {
+                        "sort-name": "United States",
+                        "type-id": null,
+                        "type": null,
+                        "iso-3166-1-codes": [
+                            "US"
+                        ],
+                        "disambiguation": "",
+                        "id": "489ce91b-6658-3307-9877-795b68554c98",
+                        "name": "United States"
+                    },
+                    "date": "1979-08-24"
+                }
+            ],
+            "title": "I Wanna Be Your Lover"
+        },
+        {
+            "id": "64b050f4-850e-439a-8749-cb585526a57b",
+            "packaging-id": "c70b737a-0114-39a9-88f7-82843e54f906",
+            "disambiguation": "",
+            "packaging": "Cassette Case",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "asin": null,
+            "quality": "normal",
+            "cover-art-archive": {
+                "front": false,
+                "count": 0,
+                "darkened": false,
+                "artwork": false,
+                "back": false
+            },
+            "country": "DE",
+            "barcode": "",
+            "date": "1982-10-27",
+            "release-events": [
+                {
+                    "area": {
+                        "type-id": null,
+                        "sort-name": "Germany",
+                        "iso-3166-1-codes": [
+                            "DE"
+                        ],
+                        "type": null,
+                        "name": "Germany",
+                        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                        "disambiguation": ""
+                    },
+                    "date": "1982-10-27"
+                }
+            ],
+            "status": "Official",
+            "title": "1999"
+        },
+        {
+            "status": "Official",
+            "release-events": [
+                {
+                    "date": "1978",
+                    "area": {
+                        "iso-3166-1-codes": [
+                            "US"
+                        ],
+                        "type": null,
+                        "sort-name": "United States",
+                        "type-id": null,
+                        "name": "United States",
+                        "disambiguation": "",
+                        "id": "489ce91b-6658-3307-9877-795b68554c98"
+                    }
+                }
+            ],
+            "title": "For You",
+            "date": "1978",
+            "cover-art-archive": {
+                "back": false,
+                "front": true,
+                "count": 1,
+                "artwork": true,
+                "darkened": false
+            },
+            "barcode": "",
+            "country": "US",
+            "packaging": "Cardboard/Paper Sleeve",
+            "id": "7782bd60-a0d3-4edf-acc9-bd910fce934d",
+            "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+            "disambiguation": "",
+            "quality": "normal",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "asin": null,
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+        },
+        {
+            "date": "1979",
+            "status": "Official",
+            "release-events": [
+                {
+                    "date": "1979",
+                    "area": {
+                        "name": "United Kingdom",
+                        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                        "disambiguation": "",
+                        "sort-name": "United Kingdom",
+                        "type-id": null,
+                        "iso-3166-1-codes": [
+                            "GB"
+                        ],
+                        "type": null
+                    }
+                }
+            ],
+            "title": "I Wanna Be Your Lover",
+            "id": "85f70887-3177-4533-bff5-35281f833ac3",
+            "packaging-id": null,
+            "packaging": null,
+            "disambiguation": "Limited Edition",
+            "quality": "normal",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "asin": null,
+            "cover-art-archive": {
+                "front": true,
+                "artwork": true,
+                "darkened": false,
+                "count": 2,
+                "back": true
+            },
+            "barcode": null,
+            "country": "GB"
+        },
+        {
+            "date": "1980",
+            "release-events": [
+                {
+                    "area": {
+                        "iso-3166-1-codes": [
+                            "DE"
+                        ],
+                        "type": null,
+                        "sort-name": "Germany",
+                        "type-id": null,
+                        "name": "Germany",
+                        "disambiguation": "",
+                        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad"
+                    },
+                    "date": "1980"
+                }
+            ],
+            "status": "Official",
+            "title": "Dirty Mind",
+            "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+            "id": "8e92e93c-f620-42d0-9972-16f066f3c221",
+            "disambiguation": "",
+            "packaging": "Cardboard/Paper Sleeve",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "asin": null,
+            "quality": "normal",
+            "cover-art-archive": {
+                "front": true,
+                "darkened": false,
+                "artwork": true,
+                "count": 3,
+                "back": false
+            },
+            "country": "DE",
+            "barcode": ""
+        },
+        {
+            "packaging-id": null,
+            "id": "964e6955-c3c4-40b9-b778-31adf1f5ead0",
+            "disambiguation": "",
+            "packaging": null,
+            "status-id": null,
+            "text-representation": {
+                "language": null,
+                "script": null
+            },
+            "asin": null,
+            "quality": "normal",
+            "cover-art-archive": {
+                "front": true,
+                "artwork": true,
+                "darkened": false,
+                "count": 1,
+                "back": false
+            },
+            "country": "US",
+            "barcode": "075992372015",
+            "date": "1982",
+            "release-events": [
+                {
+                    "date": "1982",
+                    "area": {
+                        "iso-3166-1-codes": [
+                            "US"
+                        ],
+                        "type": null,
+                        "sort-name": "United States",
+                        "type-id": null,
+                        "name": "United States",
+                        "id": "489ce91b-6658-3307-9877-795b68554c98",
+                        "disambiguation": ""
+                    }
+                }
+            ],
+            "status": null,
+            "title": "1999"
+        },
+        {
+            "status": "Official",
+            "release-events": [
+                {
+                    "date": "1980-09-10",
+                    "area": {
+                        "type-id": null,
+                        "sort-name": "United States",
+                        "type": null,
+                        "iso-3166-1-codes": [
+                            "US"
+                        ],
+                        "id": "489ce91b-6658-3307-9877-795b68554c98",
+                        "disambiguation": "",
+                        "name": "United States"
+                    }
+                }
+            ],
+            "title": "Uptown",
+            "date": "1980-09-10",
+            "cover-art-archive": {
+                "back": false,
+                "front": true,
+                "darkened": false,
+                "artwork": true,
+                "count": 1
+            },
+            "barcode": "",
+            "country": "US",
+            "id": "9b357718-f958-4851-8eab-8fc25eb31a75",
+            "disambiguation": "",
+            "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+            "packaging": "Cardboard/Paper Sleeve",
+            "quality": "normal",
+            "asin": null,
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+        },
+        {
+            "release-events": [
+                {
+                    "date": "1982-10-27",
+                    "area": {
+                        "iso-3166-1-codes": [
+                            "US"
+                        ],
+                        "type": null,
+                        "type-id": null,
+                        "sort-name": "United States",
+                        "name": "United States",
+                        "id": "489ce91b-6658-3307-9877-795b68554c98",
+                        "disambiguation": ""
+                    }
+                }
+            ],
+            "status": "Official",
+            "title": "1999",
+            "date": "1982-10-27",
+            "cover-art-archive": {
+                "front": true,
+                "count": 12,
+                "artwork": true,
+                "darkened": false,
+                "back": true
+            },
+            "country": "US",
+            "barcode": "075992372015",
+            "packaging": "Cardboard/Paper Sleeve",
+            "id": "ab9aa125-6f26-4145-879c-f0c05ff6ac60",
+            "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+            "disambiguation": "",
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "asin": null,
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "quality": "normal"
+        },
+        {
+            "id": "ac0cea91-4cfa-4873-a315-5e699044621e",
+            "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+            "packaging": "Cardboard/Paper Sleeve",
+            "disambiguation": "",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "asin": null,
+            "quality": "normal",
+            "cover-art-archive": {
+                "back": false,
+                "count": 0,
+                "darkened": false,
+                "artwork": false,
+                "front": false
+            },
+            "country": "US",
+            "barcode": "",
+            "date": "1983",
+            "release-events": [
+                {
+                    "date": "1983",
+                    "area": {
+                        "sort-name": "United States",
+                        "type-id": null,
+                        "iso-3166-1-codes": [
+                            "US"
+                        ],
+                        "type": null,
+                        "name": "United States",
+                        "id": "489ce91b-6658-3307-9877-795b68554c98",
+                        "disambiguation": ""
+                    }
+                }
+            ],
+            "status": "Official",
+            "title": "Delirious"
+        },
+        {
+            "date": "1982",
+            "title": "1999",
+            "status": "Official",
+            "release-events": [
+                {
+                    "area": {
+                        "iso-3166-1-codes": [
+                            "US"
+                        ],
+                        "type": null,
+                        "sort-name": "United States",
+                        "type-id": null,
+                        "name": "United States",
+                        "disambiguation": "",
+                        "id": "489ce91b-6658-3307-9877-795b68554c98"
+                    },
+                    "date": "1982"
+                }
+            ],
+            "quality": "normal",
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "asin": null,
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "id": "cef4547c-70cf-4858-80d3-211a688073e9",
+            "packaging-id": "c70b737a-0114-39a9-88f7-82843e54f906",
+            "packaging": "Cassette Case",
+            "disambiguation": "",
+            "barcode": "",
+            "country": "US",
+            "cover-art-archive": {
+                "front": false,
+                "count": 0,
+                "artwork": false,
+                "darkened": false,
+                "back": false
+            }
+        },
+        {
+            "cover-art-archive": {
+                "back": false,
+                "front": false,
+                "count": 0,
+                "artwork": false,
+                "darkened": false
+            },
+            "country": "CA",
+            "barcode": null,
+            "id": "d0a3e756-658d-4fe4-a627-97309e59686b",
+            "packaging": "Cardboard/Paper Sleeve",
+            "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+            "disambiguation": "",
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "asin": null,
+            "quality": "normal",
+            "release-events": [
+                {
+                    "area": {
+                        "type-id": null,
+                        "sort-name": "Canada",
+                        "type": null,
+                        "iso-3166-1-codes": [
+                            "CA"
+                        ],
+                        "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+                        "disambiguation": "",
+                        "name": "Canada"
+                    },
+                    "date": "1982"
+                }
+            ],
+            "status": "Official",
+            "title": "Little Red Corvette",
+            "date": "1982"
+        },
+        {
+            "barcode": null,
+            "country": "US",
+            "cover-art-archive": {
+                "back": false,
+                "count": 0,
+                "darkened": false,
+                "artwork": false,
+                "front": false
+            },
+            "quality": "normal",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "asin": null,
+            "id": "d4d9f69f-214a-46a2-8d15-5b0dcce35d99",
+            "packaging": null,
+            "packaging-id": null,
+            "disambiguation": "",
+            "title": "Let's Pretend We're Married / Irresistable Bitch",
+            "status": "Official",
+            "release-events": [
+                {
+                    "area": {
+                        "sort-name": "United States",
+                        "type-id": null,
+                        "iso-3166-1-codes": [
+                            "US"
+                        ],
+                        "type": null,
+                        "name": "United States",
+                        "id": "489ce91b-6658-3307-9877-795b68554c98",
+                        "disambiguation": ""
+                    },
+                    "date": "1982"
+                }
+            ],
+            "date": "1982"
+        },
+        {
+            "disambiguation": "",
+            "id": "e9c281ee-4685-349c-bda7-d6f13f3717fa",
+            "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+            "packaging": "Jewel Case",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "asin": "B000002KMV",
+            "quality": "high",
+            "cover-art-archive": {
+                "back": false,
+                "artwork": false,
+                "darkened": false,
+                "count": 0,
+                "front": false
+            },
+            "country": "FR",
+            "barcode": "075992360128",
+            "date": "1981",
+            "release-events": [
+                {
+                    "area": {
+                        "type-id": null,
+                        "sort-name": "France",
+                        "iso-3166-1-codes": [
+                            "FR"
+                        ],
+                        "type": null,
+                        "name": "France",
+                        "disambiguation": "",
+                        "id": "08310658-51eb-3801-80de-5a0739207115"
+                    },
+                    "date": "1981"
+                }
+            ],
+            "status": "Official",
+            "title": "Controversy"
+        },
+        {
+            "id": "f127388c-1271-4028-99ae-9d7e6b258177",
+            "packaging": null,
+            "packaging-id": null,
+            "disambiguation": "",
+            "asin": null,
+            "text-representation": {
+                "language": null,
+                "script": null
+            },
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "quality": "normal",
+            "cover-art-archive": {
+                "count": 0,
+                "artwork": false,
+                "darkened": false,
+                "front": false,
+                "back": false
+            },
+            "country": "US",
+            "barcode": null,
+            "date": "1979",
+            "release-events": [
+                {
+                    "date": "1979",
+                    "area": {
+                        "disambiguation": "",
+                        "id": "489ce91b-6658-3307-9877-795b68554c98",
+                        "name": "United States",
+                        "type": null,
+                        "iso-3166-1-codes": [
+                            "US"
+                        ],
+                        "type-id": null,
+                        "sort-name": "United States"
+                    }
+                }
+            ],
+            "status": "Official",
+            "title": "Prince"
+        },
+        {
+            "date": "1982",
+            "status": "Official",
+            "release-events": [
+                {
+                    "date": "1982",
+                    "area": {
+                        "name": "United States",
+                        "disambiguation": "",
+                        "id": "489ce91b-6658-3307-9877-795b68554c98",
+                        "sort-name": "United States",
+                        "type-id": null,
+                        "iso-3166-1-codes": [
+                            "US"
+                        ],
+                        "type": null
+                    }
+                }
+            ],
+            "title": "Delirious / Horny Toad",
+            "id": "f95c0a9e-c4b0-47b5-b83d-362c15897939",
+            "packaging": null,
+            "packaging-id": null,
+            "disambiguation": "",
+            "quality": "normal",
+            "asin": null,
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "cover-art-archive": {
+                "front": false,
+                "count": 0,
+                "artwork": false,
+                "darkened": false,
+                "back": false
+            },
+            "barcode": null,
+            "country": "US"
+        },
+        {
+            "quality": "normal",
+            "asin": null,
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "disambiguation": "",
+            "id": "fd4546c8-7f8d-49fb-9f1a-c99e2ea50c61",
+            "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+            "packaging": "Cardboard/Paper Sleeve",
+            "barcode": "",
+            "country": "US",
+            "cover-art-archive": {
+                "darkened": false,
+                "artwork": false,
+                "count": 0,
+                "front": false,
+                "back": false
+            },
+            "date": "1982-09-24",
+            "title": "1999",
+            "status": "Official",
+            "release-events": [
+                {
+                    "area": {
+                        "type-id": null,
+                        "sort-name": "United States",
+                        "type": null,
+                        "iso-3166-1-codes": [
+                            "US"
+                        ],
+                        "id": "489ce91b-6658-3307-9877-795b68554c98",
+                        "disambiguation": "",
+                        "name": "United States"
+                    },
+                    "date": "1982-09-24"
+                }
+            ]
+        },
+        {
+            "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+            "id": "febf8d9a-327c-4a21-96c0-51f1a5378a87",
+            "packaging": "Cardboard/Paper Sleeve",
+            "disambiguation": "",
+            "quality": "normal",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "asin": null,
+            "cover-art-archive": {
+                "count": 1,
+                "artwork": true,
+                "darkened": false,
+                "front": true,
+                "back": false
+            },
+            "barcode": null,
+            "country": "US",
+            "date": "1979",
+            "status": "Official",
+            "release-events": [
+                {
+                    "date": "1979",
+                    "area": {
+                        "sort-name": "United States",
+                        "type-id": null,
+                        "iso-3166-1-codes": [
+                            "US"
+                        ],
+                        "type": null,
+                        "name": "United States",
+                        "id": "489ce91b-6658-3307-9877-795b68554c98",
+                        "disambiguation": ""
+                    }
+                }
+            ],
+            "title": "Prince"
+        }
+    ],
+    "release-count": 828
+}
