@@ -8,7 +8,7 @@ describe('displays an album', () => {
   it('renders one single album', () => {
     const { asFragment } = render(
       <MemoryRouter>
-        <Album title="" date="" />
+        <Album name="" albumId="" title="" date="" />
       </MemoryRouter>
     );
     expect(asFragment()).toMatchSnapshot();

@@ -8,7 +8,7 @@ describe('displays an Artist', () => {
   it('renders one single artist', () => {
     const { asFragment } = render(
       <MemoryRouter>
-        <Artist artistId="" name="" disambiguation />
+        <Artist artistId="" name="" disambiguation="" />
       </MemoryRouter>
     );
     expect(asFragment()).toMatchSnapshot();
