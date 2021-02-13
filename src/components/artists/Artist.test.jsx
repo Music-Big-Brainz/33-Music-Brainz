@@ -14,3 +14,4 @@ describe('displays an Artist', () => {
     expect(asFragment()).toMatchSnapshot();
   });
 });
+
