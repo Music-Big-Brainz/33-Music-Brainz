@@ -22,7 +22,7 @@ export default class RecordingPage extends Component {
       
       <>
         <RecordingList recordings={songs}/>
-
+        
         <RecordingList 
           recordings={songs} 
           name={this.props.match.params.name} 
