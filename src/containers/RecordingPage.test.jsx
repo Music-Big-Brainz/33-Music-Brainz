@@ -2,32 +2,32 @@ import React from 'react';
 import { render, waitFor, screen } from '@testing-library/react';
 import { rest } from 'msw';
 import { setupServer } from 'msw/node';
-import albumPage from '../fixtures/artistPage.json';
-import AlbumPage from './AlbumPage';
+import recordingPage from '../fixtures/recordings.json';
+import RecordingPage from './RecordingPage';
 import { MemoryRouter } from 'react-router-dom';
 //global.fetch = require('node-fetch');
 
 const server = setupServer (
-  rest.get('http://musicbrainz.org/ws/2/release?artist=070d193a-845c-479f-980e-bef15710653e&fmt=json',
+  rest.get('http://musicbrainz.org/ws/2/recording?release=032c0dcf-32fb-48df-854c-c4ffdea82009&fmt=json',
     (req, res, ctx) => {
-      return res(ctx.json(albumPage));
+      return res(ctx.json(recordingPage));
     })
 );
 
-describe('AlbumPage container', () => {
+describe('RecordingPage container', () => {
 //   act(async() => {
       
   beforeAll(() => server.listen());
   afterAll(() => server.close());
   //   });
   
-  it('displays an album page', async() => {
+  it('displays an Recording page', async() => {
     
     //await act(async() => {
       
     render(
       <MemoryRouter>
-        <AlbumPage match={{ params: { artistId: '070d193a-845c-479f-980e-bef15710653e' } }}/>
+        <RecordingPage match={{ params: { recordingId: '032c0dcf-32fb-48df-854c-c4ffdea82009' } }}/>
       </MemoryRouter>
     );
 
@@ -35,10 +35,10 @@ describe('AlbumPage container', () => {
 
     // screen.getByTextId('Loading');
 
-    const listOfAlbums = await screen.findByTestId('albums');
+    const listOfRecordings = await screen.findByTestId('recordings');
     
     return waitFor(() => {
-      expect(listOfAlbums).not.toBeEmptyDOMElement();
+      expect(listOfRecordings).not.toBeEmptyDOMElement();
 
       
     });

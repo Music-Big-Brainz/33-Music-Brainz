@@ -3,7 +3,7 @@
 exports[`displays an Artist renders one single artist 1`] = `
 <DocumentFragment>
   <a
-    href="/releases/"
+    href="/releases//"
   >
     <figure>
       <p />
