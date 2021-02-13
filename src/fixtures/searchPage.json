@@ -1,0 +1,1532 @@
+{
+    "created": "2021-02-13T01:18:19.751Z",
+    "count": 1071,
+    "offset": 0,
+    "artists": [
+        {
+            "id": "070d193a-845c-479f-980e-bef15710653e",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 100,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "name": "Prince",
+            "sort-name": "Prince",
+            "gender": "male",
+            "country": "US",
+            "area": {
+                "id": "489ce91b-6658-3307-9877-795b68554c98",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "United States",
+                "sort-name": "United States",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "begin-area": {
+                "id": "3e80aaa7-9b71-450f-8147-0ecf101d8f1a",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Minneapolis",
+                "sort-name": "Minneapolis",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "end-area": {
+                "id": "cac242a2-9fa1-476a-a160-0812e08aec4f",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Chanhassen",
+                "sort-name": "Chanhassen",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "disambiguation": "“The Artist Formerly Known as…”",
+            "ipis": [
+                "00045620792",
+                "00334284961",
+                "00052210040"
+            ],
+            "isnis": [
+                "0000000120964892"
+            ],
+            "life-span": {
+                "begin": "1958-06-07",
+                "end": "2016-04-21",
+                "ended": true
+            },
+            "aliases": [
+                {
+                    "sort-name": "O(+>)",
+                    "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                    "name": "O(+>)",
+                    "locale": null,
+                    "type": "Search hint",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "The Artist Formerly Known as Prince",
+                    "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                    "name": "The Artist Formerly Known as Prince",
+                    "locale": null,
+                    "type": "Search hint",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "The Love Symbol",
+                    "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                    "name": "The Love Symbol",
+                    "locale": null,
+                    "type": "Search hint",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Prince",
+                    "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                    "name": "Prince",
+                    "locale": "en",
+                    "type": "Artist name",
+                    "primary": true,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Coco, Joey",
+                    "name": "Joey Coco",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": "1985",
+                    "end-date": "1987"
+                },
+                {
+                    "sort-name": "♀♂",
+                    "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                    "name": "♀♂",
+                    "locale": null,
+                    "type": "Search hint",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Formerly Prince",
+                    "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                    "name": "Formerly Prince",
+                    "locale": null,
+                    "type": "Search hint",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Symbol",
+                    "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                    "name": "Symbol",
+                    "locale": null,
+                    "type": "Search hint",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "O(+>",
+                    "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                    "name": "O(+>",
+                    "locale": null,
+                    "type": "Search hint",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "T.A.F.K.A.P.",
+                    "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                    "name": "T.A.F.K.A.P.",
+                    "locale": null,
+                    "type": "Search hint",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "(us 1) PRINCE",
+                    "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                    "name": "(us 1) PRINCE",
+                    "locale": null,
+                    "type": "Search hint",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Ƭ̵̬̊",
+                    "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                    "name": "Ƭ̵̬̊",
+                    "locale": null,
+                    "type": "Search hint",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Nelson, Prince Rogers",
+                    "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                    "name": "Prince Rogers Nelson",
+                    "locale": "en",
+                    "type": "Legal name",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "server name"
+                },
+                {
+                    "count": 0,
+                    "name": "soul"
+                },
+                {
+                    "count": 0,
+                    "name": "dance"
+                },
+                {
+                    "count": 4,
+                    "name": "pop"
+                },
+                {
+                    "count": 3,
+                    "name": "contemporary r&b"
+                },
+                {
+                    "count": 0,
+                    "name": "prince revolution"
+                },
+                {
+                    "count": 0,
+                    "name": "90s"
+                },
+                {
+                    "count": 0,
+                    "name": "pop/rock"
+                },
+                {
+                    "count": 0,
+                    "name": "70s"
+                },
+                {
+                    "count": 1,
+                    "name": "anniversary"
+                },
+                {
+                    "count": 2,
+                    "name": "psychedelic pop"
+                },
+                {
+                    "count": 0,
+                    "name": "american"
+                },
+                {
+                    "count": 2,
+                    "name": "pop rock"
+                },
+                {
+                    "count": 0,
+                    "name": "80s"
+                },
+                {
+                    "count": 0,
+                    "name": "pop and chart"
+                },
+                {
+                    "count": 4,
+                    "name": "funk rock"
+                },
+                {
+                    "count": 0,
+                    "name": "00s"
+                },
+                {
+                    "count": 0,
+                    "name": "américain"
+                },
+                {
+                    "count": 3,
+                    "name": "synth funk"
+                },
+                {
+                    "count": 2,
+                    "name": "usa"
+                },
+                {
+                    "count": 0,
+                    "name": "robin"
+                },
+                {
+                    "count": 3,
+                    "name": "rock"
+                },
+                {
+                    "count": 0,
+                    "name": "dance-rock"
+                },
+                {
+                    "count": 2,
+                    "name": "neo-psychedelia"
+                },
+                {
+                    "count": 0,
+                    "name": "punk"
+                },
+                {
+                    "count": 3,
+                    "name": "psychedelic soul"
+                },
+                {
+                    "count": 0,
+                    "name": "minneapolis sound"
+                },
+                {
+                    "count": 0,
+                    "name": "pretzelbodylogic"
+                },
+                {
+                    "count": 2,
+                    "name": "film soundtrack"
+                },
+                {
+                    "count": 2,
+                    "name": "dance-pop"
+                },
+                {
+                    "count": 1,
+                    "name": "pop soul"
+                },
+                {
+                    "count": 9,
+                    "name": "funk"
+                }
+            ]
+        },
+        {
+            "id": "0b27f6b8-96db-465e-a94e-5184f63e8fad",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 78,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "name": "Bobby Prince",
+            "sort-name": "Prince, Bobby",
+            "gender": "male",
+            "country": "US",
+            "area": {
+                "id": "489ce91b-6658-3307-9877-795b68554c98",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "United States",
+                "sort-name": "United States",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "begin-area": {
+                "id": "f9caf2d8-9638-4b96-bc49-8462339d4b2e",
+                "type": "Subdivision",
+                "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+                "name": "Tennessee",
+                "sort-name": "Tennessee",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "disambiguation": "video game composer",
+            "life-span": {
+                "ended": null
+            },
+            "aliases": [
+                {
+                    "sort-name": "Prince, Robert",
+                    "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                    "name": "Robert Prince",
+                    "locale": "en",
+                    "type": "Legal name",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Prince III, Robert Caskin",
+                    "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                    "name": "Robert Caskin Prince III",
+                    "locale": "en",
+                    "type": "Legal name",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Prince, Bobby",
+                    "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                    "name": "Bobby Prince",
+                    "locale": "en",
+                    "type": "Artist name",
+                    "primary": true,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "composer"
+                },
+                {
+                    "count": 1,
+                    "name": "usa"
+                },
+                {
+                    "count": 1,
+                    "name": "american"
+                },
+                {
+                    "count": 1,
+                    "name": "_tidy"
+                },
+                {
+                    "count": 1,
+                    "name": "vgm"
+                }
+            ]
+        },
+        {
+            "id": "4d52342d-0584-43b3-86e2-e356221c2804",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 78,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "name": "Prince",
+            "sort-name": "Prince",
+            "gender": "male",
+            "begin-area": {
+                "id": "1f40c6e1-47ba-4e35-996f-fe6ee5840e62",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Los Angeles",
+                "sort-name": "Los Angeles",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "disambiguation": "American rapper Prince M.P.",
+            "life-span": {
+                "begin": "1990-05-02",
+                "ended": null
+            }
+        },
+        {
+            "id": "cdc0fff7-54cf-4052-a283-319b648670fd",
+            "score": 78,
+            "name": "Prince",
+            "sort-name": "Prince",
+            "country": "JP",
+            "area": {
+                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "Japan",
+                "sort-name": "Japan",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "disambiguation": "Japanese trance artist",
+            "life-span": {
+                "ended": null
+            }
+        },
+        {
+            "id": "7a983e1d-dda2-42cf-bf63-78cb2bd5c6f8",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 77,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "name": "Prince",
+            "sort-name": "Prince",
+            "gender": "male",
+            "disambiguation": "Yellow Flame Gang",
+            "life-span": {
+                "ended": null
+            }
+        },
+        {
+            "id": "660697b6-9332-4c9a-8a8e-a5b4ee8c54d1",
+            "score": 77,
+            "name": "Prince",
+            "sort-name": "Prince",
+            "country": "GB",
+            "area": {
+                "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "United Kingdom",
+                "sort-name": "United Kingdom",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "disambiguation": "UK rapper",
+            "life-span": {
+                "ended": null
+            }
+        },
+        {
+            "id": "33cf14b6-ddab-4453-986c-6272876f4f9f",
+            "score": 77,
+            "name": "Prince",
+            "sort-name": "Prince",
+            "disambiguation": "feat. on \"Just Dance\" by Ayesha",
+            "life-span": {
+                "ended": null
+            }
+        },
+        {
+            "id": "e43beb57-a015-4ed9-bcd6-490674518a49",
+            "score": 77,
+            "name": "Prince",
+            "sort-name": "Prince",
+            "disambiguation": "france",
+            "life-span": {
+                "ended": null
+            }
+        },
+        {
+            "id": "6b773f61-96f1-41e4-9029-4d491dd39005",
+            "score": 77,
+            "name": "Prince",
+            "sort-name": "Prince",
+            "disambiguation": "unknown mixing engineer",
+            "life-span": {
+                "ended": null
+            }
+        },
+        {
+            "id": "a1d32e75-2391-4d94-904e-13536304dcf6",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 76,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "name": "Prince Buster",
+            "sort-name": "Prince Buster",
+            "gender": "male",
+            "country": "JM",
+            "area": {
+                "id": "2dd47a64-91d5-3b13-bc94-80043ed063d7",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "Jamaica",
+                "sort-name": "Jamaica",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "begin-area": {
+                "id": "23e0d135-9fe7-48cb-b2c4-93addd3d1e37",
+                "type": "Subdivision",
+                "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+                "name": "Kingston",
+                "sort-name": "Kingston",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "end-area": {
+                "id": "4a9aeb42-3763-4234-8fb8-1167ac1dfdfe",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Miami",
+                "sort-name": "Miami",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "isnis": [
+                "0000000116479712"
+            ],
+            "life-span": {
+                "begin": "1938-05-28",
+                "end": "2016-09-08",
+                "ended": true
+            },
+            "aliases": [
+                {
+                    "sort-name": "Price Buster",
+                    "name": "Price Buster",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Campbell, Cecil Bustamente",
+                    "name": "Cecil Bustamente Campbell",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Muhammed Yusef Ali",
+                    "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                    "name": "Muhammed Yusef Ali",
+                    "locale": null,
+                    "type": "Search hint",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Jamaica Greatest",
+                    "name": "Jamaica Greatest",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "blue beat"
+                },
+                {
+                    "count": 2,
+                    "name": "rocksteady"
+                },
+                {
+                    "count": 1,
+                    "name": "rock and indie"
+                },
+                {
+                    "count": 2,
+                    "name": "ska"
+                },
+                {
+                    "count": 1,
+                    "name": "jamaica"
+                }
+            ]
+        },
+        {
+            "id": "7d2f071d-ffa4-4ce7-bea2-0685374c1b2a",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 75,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "name": "Prince Jammy",
+            "sort-name": "Prince Jammy",
+            "gender": "male",
+            "country": "JM",
+            "area": {
+                "id": "2dd47a64-91d5-3b13-bc94-80043ed063d7",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "Jamaica",
+                "sort-name": "Jamaica",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "begin-area": {
+                "id": "78e0bdfe-8f2b-48e0-a97e-b776be3c3caf",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Montego Bay",
+                "sort-name": "Montego Bay",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "ipis": [
+                "00256902652"
+            ],
+            "isnis": [
+                "0000000001467236"
+            ],
+            "life-span": {
+                "begin": "1947",
+                "ended": null
+            },
+            "aliases": [
+                {
+                    "sort-name": "Prince Jammy's Group",
+                    "name": "Prince Jammy's Group",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Jammy James",
+                    "name": "Jammy James",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "reggae"
+                },
+                {
+                    "count": 1,
+                    "name": "producer"
+                },
+                {
+                    "count": 1,
+                    "name": "dub"
+                },
+                {
+                    "count": 1,
+                    "name": "ragga"
+                }
+            ]
+        },
+        {
+            "id": "50840ae7-d000-4858-8aac-bd776a12dafa",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 72,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "name": "Prince Paul",
+            "sort-name": "Prince Paul",
+            "gender": "male",
+            "country": "US",
+            "area": {
+                "id": "489ce91b-6658-3307-9877-795b68554c98",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "United States",
+                "sort-name": "United States",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "begin-area": {
+                "id": "96280e48-70ce-4d28-9a7b-798b9b68b9f8",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Amityville",
+                "sort-name": "Amityville",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "disambiguation": "US hip hop DJ & producer",
+            "ipis": [
+                "00223299277"
+            ],
+            "isnis": [
+                "0000000097927005"
+            ],
+            "life-span": {
+                "begin": "1967-04-02",
+                "ended": null
+            },
+            "aliases": [
+                {
+                    "sort-name": "Undertaker, The",
+                    "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                    "name": "The Undertaker",
+                    "locale": null,
+                    "type": "Artist name",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Houston",
+                    "name": "Houston",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Huston, Paul Edward",
+                    "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                    "name": "Paul Edward Huston",
+                    "locale": null,
+                    "type": "Legal name",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "hip hop"
+                }
+            ]
+        },
+        {
+            "id": "7b0a63b2-b8e8-490e-b724-1d30cb5edfe3",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 72,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "name": "Bonnie “Prince” Billy",
+            "sort-name": "Billy, Bonnie “Prince”",
+            "gender": "male",
+            "country": "US",
+            "area": {
+                "id": "489ce91b-6658-3307-9877-795b68554c98",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "United States",
+                "sort-name": "United States",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "begin-area": {
+                "id": "b21e4552-050d-4c0c-ac5a-031108eb0c47",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Louisville",
+                "sort-name": "Louisville",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "isnis": [
+                "0000000114787826"
+            ],
+            "life-span": {
+                "begin": "1970-12-24",
+                "ended": null
+            },
+            "aliases": [
+                {
+                    "sort-name": "Bonnie ‘Prince’ Billy",
+                    "name": "Bonnie ‘Prince’ Billy",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Palace Music",
+                    "name": "Palace Music",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Bonnie ‘Prince’ Billie",
+                    "name": "Bonnie ‘Prince’ Billie",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Bonnie Prince Billie",
+                    "name": "Bonnie Prince Billie",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Bonny Billy",
+                    "name": "Bonny Billy",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Bonnie Prince Billy",
+                    "name": "Bonnie Prince Billy",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "folk"
+                },
+                {
+                    "count": 1,
+                    "name": "americana"
+                },
+                {
+                    "count": 2,
+                    "name": "alt-country"
+                },
+                {
+                    "count": 1,
+                    "name": "country"
+                }
+            ]
+        },
+        {
+            "id": "d1689304-23ac-4eae-a147-bd2e4100581a",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 71,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "name": "Prince Royce",
+            "sort-name": "Prince Royce",
+            "gender": "male",
+            "country": "US",
+            "area": {
+                "id": "489ce91b-6658-3307-9877-795b68554c98",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "United States",
+                "sort-name": "United States",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "begin-area": {
+                "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "New York",
+                "sort-name": "New York",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "ipis": [
+                "00542569732"
+            ],
+            "life-span": {
+                "begin": "1989-05-11",
+                "ended": null
+            },
+            "aliases": [
+                {
+                    "sort-name": "Prynce Royce",
+                    "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                    "name": "Prynce Royce",
+                    "locale": null,
+                    "type": "Search hint",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Royce Rojas, Geoffrey",
+                    "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                    "name": "Geoffrey Royce Rojas",
+                    "locale": null,
+                    "type": "Legal name",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "latin pop"
+                },
+                {
+                    "count": 2,
+                    "name": "bachata"
+                },
+                {
+                    "count": 2,
+                    "name": "latin"
+                },
+                {
+                    "count": 1,
+                    "name": "pop"
+                }
+            ]
+        },
+        {
+            "id": "4939dfab-2d9f-462a-aa12-8ff648248063",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 71,
+            "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+            "name": "Alexandra Prince",
+            "sort-name": "Prince, Alexandra",
+            "gender": "female",
+            "country": "DE",
+            "area": {
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "Germany",
+                "sort-name": "Germany",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "begin-area": {
+                "id": "11a44e18-a2e5-43a9-bee9-aa4f7c83f967",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Hamburg",
+                "sort-name": "Hamburg",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "disambiguation": "German house singer, How we Livin, Deep Dish",
+            "ipis": [
+                "00278549511"
+            ],
+            "life-span": {
+                "begin": "1975-11-03",
+                "ended": null
+            },
+            "aliases": [
+                {
+                    "sort-name": "Alex Prince",
+                    "name": "Alex Prince",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Prinz, Alexandra",
+                    "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                    "name": "Alexandra Prinz",
+                    "locale": null,
+                    "type": "Legal name",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ]
+        },
+        {
+            "id": "1751fa84-9e85-4c71-8330-2c7075dff06e",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 71,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "name": "Prince Jazzbo",
+            "sort-name": "Prince Jazzbo",
+            "gender": "male",
+            "country": "JM",
+            "area": {
+                "id": "2dd47a64-91d5-3b13-bc94-80043ed063d7",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "Jamaica",
+                "sort-name": "Jamaica",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "begin-area": {
+                "id": "49412054-5de5-49ba-af06-5cab89efb48b",
+                "type": "Subdivision",
+                "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+                "name": "Clarendon",
+                "sort-name": "Clarendon",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "end-area": {
+                "id": "8a086d15-0735-4b7e-b3f7-5c02e4723c2a",
+                "type": "Subdivision",
+                "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+                "name": "Saint Catherine",
+                "sort-name": "Saint Catherine",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "isnis": [
+                "0000000000709483"
+            ],
+            "life-span": {
+                "begin": "1951-09-03",
+                "end": "2013-09-11",
+                "ended": true
+            },
+            "aliases": [
+                {
+                    "sort-name": "Carter, Linval Roy",
+                    "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                    "name": "Linval Roy Carter",
+                    "locale": "en_JM",
+                    "type": "Legal name",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ]
+        },
+        {
+            "id": "e2b60aeb-ee20-410a-82f9-e6d273af0e45",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 71,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "name": "Prince Alla",
+            "sort-name": "Prince Alla",
+            "gender": "male",
+            "country": "JM",
+            "area": {
+                "id": "2dd47a64-91d5-3b13-bc94-80043ed063d7",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "Jamaica",
+                "sort-name": "Jamaica",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "life-span": {
+                "begin": "1950-05-10",
+                "ended": null
+            },
+            "aliases": [
+                {
+                    "sort-name": "Prince Allah",
+                    "name": "Prince Allah",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ]
+        },
+        {
+            "id": "e5c1825b-8d27-47de-9c6b-a2d6cde9be0a",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 70,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "name": "Prince Fatty",
+            "sort-name": "Prince Fatty",
+            "gender": "male",
+            "country": "GB",
+            "area": {
+                "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "United Kingdom",
+                "sort-name": "United Kingdom",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "life-span": {
+                "ended": null
+            },
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "soul and reggae"
+                }
+            ]
+        },
+        {
+            "id": "a6de053e-1f77-43cf-aab0-0337bf342bef",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 70,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "name": "Prince Chrishan",
+            "sort-name": "Prince Chrishan",
+            "gender": "male",
+            "country": "US",
+            "area": {
+                "id": "489ce91b-6658-3307-9877-795b68554c98",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "United States",
+                "sort-name": "United States",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "begin-area": {
+                "id": "411611e6-9779-404d-bb23-cf11388c7f3e",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Toledo",
+                "sort-name": "Toledo",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "life-span": {
+                "begin": "1989-10-21",
+                "ended": null
+            },
+            "aliases": [
+                {
+                    "sort-name": "Dotson, Christopher Chrishan",
+                    "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                    "name": "Christopher Chrishan Dotson",
+                    "locale": null,
+                    "type": "Legal name",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Chrishan The Prince",
+                    "name": "Chrishan The Prince",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ]
+        },
+        {
+            "id": "ddefabde-c030-400f-94d8-3ab4f74a9e2f",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 70,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "name": "Jay Prince",
+            "sort-name": "Prince, Jay",
+            "gender": "male",
+            "area": {
+                "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "London",
+                "sort-name": "London",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "disambiguation": "UK hip-hop artist & producer",
+            "life-span": {
+                "begin": "1993",
+                "ended": null
+            }
+        },
+        {
+            "id": "6ca24ff0-c0dd-4c37-8029-f052dafb1e4a",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "score": 70,
+            "name": "Prince Rama",
+            "sort-name": "Prince Rama",
+            "country": "US",
+            "area": {
+                "id": "489ce91b-6658-3307-9877-795b68554c98",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "United States",
+                "sort-name": "United States",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "begin-area": {
+                "id": "a71b0d32-7752-49e9-8594-2247ad6ac12c",
+                "type": "District",
+                "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+                "name": "Brooklyn",
+                "sort-name": "Brooklyn",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "disambiguation": "formerly known as \"Prince Rama of Ayodhya\"",
+            "life-span": {
+                "begin": "2007-07",
+                "ended": null
+            },
+            "aliases": [
+                {
+                    "sort-name": "Prince Rama of Ayodhya",
+                    "name": "Prince Rama of Ayodhya",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "now age"
+                },
+                {
+                    "count": 1,
+                    "name": "psychedelic"
+                },
+                {
+                    "count": 1,
+                    "name": "new age"
+                },
+                {
+                    "count": 1,
+                    "name": "pop"
+                }
+            ]
+        },
+        {
+            "id": "4c8ead39-b9df-4c56-a27c-51bc049cfd48",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "score": 70,
+            "name": "The Revolution",
+            "sort-name": "Revolution, The",
+            "country": "US",
+            "area": {
+                "id": "489ce91b-6658-3307-9877-795b68554c98",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "United States",
+                "sort-name": "United States",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "begin-area": {
+                "id": "3e80aaa7-9b71-450f-8147-0ecf101d8f1a",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Minneapolis",
+                "sort-name": "Minneapolis",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "end-area": {
+                "id": "3e80aaa7-9b71-450f-8147-0ecf101d8f1a",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Minneapolis",
+                "sort-name": "Minneapolis",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "disambiguation": "founded by Prince",
+            "isnis": [
+                "0000000108063629"
+            ],
+            "life-span": {
+                "begin": "1979",
+                "end": "1986",
+                "ended": true
+            },
+            "aliases": [
+                {
+                    "sort-name": "Prince & The Revolution",
+                    "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                    "name": "Prince & The Revolution",
+                    "locale": "en",
+                    "type": "Artist name",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Prince and the Revolution",
+                    "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                    "name": "Prince and the Revolution",
+                    "locale": null,
+                    "type": "Artist name",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ],
+            "tags": [
+                {
+                    "count": 0,
+                    "name": "american"
+                },
+                {
+                    "count": 1,
+                    "name": "rock"
+                },
+                {
+                    "count": 1,
+                    "name": "synth funk"
+                },
+                {
+                    "count": 3,
+                    "name": "funk"
+                },
+                {
+                    "count": 1,
+                    "name": "funk rock"
+                },
+                {
+                    "count": 1,
+                    "name": "dance-pop"
+                },
+                {
+                    "count": 2,
+                    "name": "pop"
+                },
+                {
+                    "count": 1,
+                    "name": "film soundtrack"
+                },
+                {
+                    "count": 1,
+                    "name": "pop rock"
+                },
+                {
+                    "count": 1,
+                    "name": "psychedelic soul"
+                },
+                {
+                    "count": 1,
+                    "name": "psychedelic pop"
+                },
+                {
+                    "count": 1,
+                    "name": "neo-psychedelia"
+                },
+                {
+                    "count": 0,
+                    "name": "usa"
+                },
+                {
+                    "count": 0,
+                    "name": "rock and indie"
+                },
+                {
+                    "count": 0,
+                    "name": "américain"
+                }
+            ]
+        },
+        {
+            "id": "fcd1ceb1-6991-4cc5-bf4d-0e1ba70dc6a7",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 70,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "name": "Prince Po",
+            "sort-name": "Prince Po",
+            "gender": "male",
+            "country": "US",
+            "area": {
+                "id": "489ce91b-6658-3307-9877-795b68554c98",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "United States",
+                "sort-name": "United States",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "life-span": {
+                "begin": "1969",
+                "ended": null
+            },
+            "aliases": [
+                {
+                    "sort-name": "Prince Poetry",
+                    "name": "Prince Poetry",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "hip hop"
+                }
+            ]
+        },
+        {
+            "id": "af6177c1-86b6-48a8-a19a-ff89869071af",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 69,
+            "name": "Microwave Prince",
+            "sort-name": "Microwave Prince",
+            "life-span": {
+                "ended": null
+            },
+            "aliases": [
+                {
+                    "sort-name": "Microwave Prince 2",
+                    "name": "Microwave Prince 2",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ]
+        },
+        {
+            "id": "d4548a39-0b96-4fe4-86db-d8a9a1e13030",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 69,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "name": "Tito Prince",
+            "sort-name": "Tito Prince",
+            "gender": "male",
+            "country": "FR",
+            "area": {
+                "id": "08310658-51eb-3801-80de-5a0739207115",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "France",
+                "sort-name": "France",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "life-span": {
+                "ended": null
+            }
+        }
+    ]
+}

@@ -2,41 +2,41 @@ import React from 'react';
 import { render, waitFor, screen } from '@testing-library/react';
 import { rest } from 'msw';
 import { setupServer } from 'msw/node';
-import albumPage from '../fixtures/artistPage.json';
-import AlbumPage from './AlbumPage';
+import  searchPage  from '../fixtures/searchPage.json';
+import SearchPage from './SearchPage';
 import { MemoryRouter } from 'react-router-dom';
 //global.fetch = require('node-fetch');
 
 const server = setupServer (
-  rest.get('http://musicbrainz.org/ws/2/release?artist=070d193a-845c-479f-980e-bef15710653e&fmt=json',
+  rest.get('http://musicbrainz.org/ws/2/artist?query=prince&fmt=json&limit=25',
     (req, res, ctx) => {
-      return res(ctx.json(albumPage));
+      return res(ctx.json(searchPage));
     })
 );
 
-describe('AlbumPage container', () => {
+describe('SearchPage container', () => {
 //   act(async() => {
       
   beforeAll(() => server.listen());
   afterAll(() => server.close());
   //   });
   
-  it('displays an album page', async() => {
+  it('displays a search page', async() => {
     
 
       
     render(
       <MemoryRouter>
-        <AlbumPage match={{ params: { artistId: '070d193a-845c-479f-980e-bef15710653e' } }}/>
+        <SearchPage match={{ params: { artistId: '070d193a-845c-479f-980e-bef15710653e' } }}/>
       </MemoryRouter>
     );
 
  
 
-    const listOfAlbums = await screen.findByTestId('albums');
+    const form = await screen.findByTestId('artists');
     
     return waitFor(() => {
-      expect(listOfAlbums).not.toBeEmptyDOMElement();
+      expect(form).not.toBeEmptyDOMElement();
 
       
     });
