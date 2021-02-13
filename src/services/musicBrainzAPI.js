@@ -46,3 +46,4 @@ export const findLyricsByAristAndRecording = (artist, recording) => {
     .then((res) => res.json())
     .then(json => json.lyrics);
 };
+
