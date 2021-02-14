@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Lyrics = ({ lyrics, song }) => (
   <div>
     <h1>{song}</h1>
-    <p>{lyrics}</p>
+    <p data-testid="lyrics">{lyrics}</p>
   </div>
 );
 

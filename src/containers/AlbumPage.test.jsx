@@ -5,7 +5,6 @@ import { setupServer } from 'msw/node';
 import albumPage from '../fixtures/artistPage.json';
 import AlbumPage from './AlbumPage';
 import { MemoryRouter } from 'react-router-dom';
-//global.fetch = require('node-fetch');
 
 const server = setupServer (
   rest.get('http://musicbrainz.org/ws/2/release?artist=070d193a-845c-479f-980e-bef15710653e&fmt=json',
@@ -15,32 +14,20 @@ const server = setupServer (
 );
 
 describe('AlbumPage container', () => {
-//   act(async() => {
-      
   beforeAll(() => server.listen());
   afterAll(() => server.close());
-  //   });
-  
+
   it('displays an album page', async() => {
-    
-    //await act(async() => {
-      
     render(
       <MemoryRouter>
         <AlbumPage match={{ params: { artistId: '070d193a-845c-479f-980e-bef15710653e' } }}/>
       </MemoryRouter>
     );
 
-    // });
-
-    // screen.getByTextId('Loading');
-
     const listOfAlbums = await screen.findByTestId('albums');
-    
+
     return waitFor(() => {
       expect(listOfAlbums).not.toBeEmptyDOMElement();
-
-      
     });
   });
 });
