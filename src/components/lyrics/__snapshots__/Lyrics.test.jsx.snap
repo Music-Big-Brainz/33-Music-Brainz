@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`displays an album renders one single album 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      head
+    </h1>
+    <p
+      data-testid="lyrics"
+    >
+      Song lyrics
+    </p>
+  </div>
+</DocumentFragment>
+`;

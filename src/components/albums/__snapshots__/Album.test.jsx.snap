@@ -3,14 +3,18 @@
 exports[`displays an album renders one single album 1`] = `
 <DocumentFragment>
   <a
-    href="/releases//title//"
+    href="/releases/Prince/title/281e42d6-389e-4224-9bc6-84220a62d50f/Dirty Mind"
   >
     <figure>
-      <p />
-      <p />
+      <p>
+        Dirty Mind
+      </p>
+      <p>
+        1980
+      </p>
       <img
         alt="No album art"
-        src="http://coverartarchive.org/release//front"
+        src="http://coverartarchive.org/release/281e42d6-389e-4224-9bc6-84220a62d50f/front"
         style="width: 175px;"
       />
     </figure>

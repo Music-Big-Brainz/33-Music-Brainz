@@ -13,8 +13,8 @@ const RecordingList = ({ recordings, name, albumId }) => {
 
   return (
     <>
-      <h1>{title}</h1>
-      <ul>{recordingElements}</ul>;
+      <h1 >{title}</h1>
+      <ul data-testid="recordings" >{recordingElements}</ul>;
     </>
   );
 };
