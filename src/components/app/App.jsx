@@ -20,26 +20,28 @@ export default class App extends Component {
             <Route 
               exact 
               path="/releases/:artistId"
-              render={ (routerProps) => <AlbumPage {...routerProps} /> } />
+              render={ (routerProps) => <AlbumPage {...routerProps} /> } 
+              />
             <Route
               exact 
               path="/releases/title/:albumId/:title"
-              render={ (routerProps) => <RecordingPage {...routerProps} /> } />
-            <Route
+              render={ (routerProps) => <RecordingPage {...routerProps} /> } 
+              />
+            <Route 
               exact 
               path="/releases/:name/:artistId"
-              render={ (routerProps) => <AlbumPage {...routerProps} /> }
-            />
+              render={ (routerProps) => <AlbumPage {...routerProps} /> } 
+              />
             <Route 
               exact 
               path="/releases/:name/title/:albumId/:title"
-              render={ (routerProps) => <RecordingPage {...routerProps} /> }
-            />
+              render={ (routerProps) => <RecordingPage {...routerProps} /> } 
+              />
             <Route
               exact
               path="/releases/:name/title/:albumId/:songTitle/:recording"
               render={ (routerProps) => <LyricsPage {...routerProps} /> }
-            />
+              />
           </Switch>
         </Router>
       </div>
