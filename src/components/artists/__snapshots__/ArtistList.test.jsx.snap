@@ -3,11 +3,15 @@
 exports[`displays artists renders artists 1`] = `
 <DocumentFragment>
   <a
-    href="/releases/undefined/undefined"
+    href="/releases/Prince/070d193a-845c-479f-980e-bef15710653e"
   >
     <figure>
-      <p />
-      <p />
+      <p>
+        Prince
+      </p>
+      <p>
+        the artist formely known as
+      </p>
     </figure>
   </a>
 </DocumentFragment>

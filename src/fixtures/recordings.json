@@ -1,22 +1,70 @@
 {
-  "recording-offset": 0,
+  "recording-count": 8,
   "recordings": [
       {
-          "id": "2eb5645c-1f40-4c2b-8453-e0a17343b133",
-          "title": "Little Red Corvette",
-          "disambiguation": "single edit",
-          "first-release-date": "1982",
+          "first-release-date": "1980",
+          "id": "18c43d5c-39be-451b-a03e-6ca5dc7a014f",
+          "length": 254866,
           "video": false,
-          "length": 187667
+          "title": "Dirty Mind",
+          "disambiguation": ""
       },
       {
+          "first-release-date": "1980",
+          "id": "39d93934-e5ab-4842-9771-3914f174da8a",
+          "disambiguation": "",
+          "length": 283533,
           "video": false,
-          "length": 217816,
-          "title": "1999",
-          "id": "392bd99f-4f36-4e5c-adbd-7287ab92c381",
-          "disambiguation": "single edit",
-          "first-release-date": "1982-09-24"
+          "title": "Head"
+      },
+      {
+          "id": "427b0edc-3059-4a88-91fb-c855c2eb73d7",
+          "video": false,
+          "title": "When You Were Mine",
+          "length": 224000,
+          "disambiguation": "",
+          "first-release-date": "1980"
+      },
+      {
+          "id": "85600d45-f8e7-461e-a427-eed73d35329f",
+          "disambiguation": "",
+          "video": false,
+          "length": 264400,
+          "title": "Partyup",
+          "first-release-date": "1980"
+      },
+      {
+          "first-release-date": "1980",
+          "id": "9352591f-f722-4151-9936-3f650d2c7c7f",
+          "disambiguation": "",
+          "video": false,
+          "length": 91800,
+          "title": "Sister"
+      },
+      {
+          "first-release-date": "1980",
+          "title": "Uptown",
+          "video": false,
+          "length": 332226,
+          "disambiguation": "",
+          "id": "cfc68565-b3e1-47aa-aa1e-5b419c9e2ace"
+      },
+      {
+          "id": "de74e803-d7ff-4475-9f36-a75dab55709b",
+          "disambiguation": "",
+          "title": "Gotta Broken Heart Again",
+          "video": false,
+          "length": 136266,
+          "first-release-date": "1980"
+      },
+      {
+          "first-release-date": "1980",
+          "disambiguation": "",
+          "length": 222573,
+          "video": false,
+          "title": "Do It All Night",
+          "id": "e1dc6ac8-0b40-487e-8df9-ae3a1e34af68"
       }
   ],
-  "recording-count": 2
+  "recording-offset": 0
 }

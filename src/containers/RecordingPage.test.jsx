@@ -5,42 +5,33 @@ import { setupServer } from 'msw/node';
 import recordingPage from '../fixtures/recordings.json';
 import RecordingPage from './RecordingPage';
 import { MemoryRouter } from 'react-router-dom';
-//global.fetch = require('node-fetch');
 
 const server = setupServer (
-  rest.get('http://musicbrainz.org/ws/2/recording?release=032c0dcf-32fb-48df-854c-c4ffdea82009&fmt=json',
+  rest.get('http://musicbrainz.org/ws/2/recording?release=281e42d6-389e-4224-9bc6-84220a62d50f&fmt=json',
     (req, res, ctx) => {
       return res(ctx.json(recordingPage));
     })
 );
 
 describe('RecordingPage container', () => {
-//   act(async() => {
-      
   beforeAll(() => server.listen());
   afterAll(() => server.close());
-  //   });
   
   it('displays an Recording page', async() => {
-    
-    //await act(async() => {
-      
     render(
       <MemoryRouter>
-        <RecordingPage match={{ params: { recordingId: '032c0dcf-32fb-48df-854c-c4ffdea82009' } }}/>
+        <RecordingPage match={{ params: { 
+          recordingId: 'de74e803-d7ff-4475-9f36-a75dab55709b',
+          name: 'Prince',
+          albumId: '281e42d6-389e-4224-9bc6-84220a62d50f'
+        } }}/>
       </MemoryRouter>
     );
 
-    // });
-
-    // screen.getByTextId('Loading');
-
-    const listOfRecordings = await screen.findByTestId('recordings');
+    const ul = await screen.findByTestId('recordings');
     
     return waitFor(() => {
-      expect(listOfRecordings).not.toBeEmptyDOMElement();
-
-      
+      expect(ul).not.toBeEmptyDOMElement();
     });
   });
 });

@@ -21,12 +21,11 @@ export default class RecordingPage extends Component {
     return ( 
       
       <>
-        <RecordingList recordings={songs}/>
-        
         <RecordingList 
           recordings={songs} 
           name={this.props.match.params.name} 
           albumId={this.props.match.params.albumId}
+          data-testid="recordings"
         />
       </>
     );

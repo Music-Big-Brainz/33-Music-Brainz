@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Recording = ({ recordingId, songTitle, name, albumId }) => {
   return (
     <Link to={`/releases/${name}/title/${albumId}/${songTitle}/${songTitle}`}>
-      <figure key={recordingId}>
+      <figure key={recordingId, songTitle}>
         <p>{songTitle}</p>
       </figure>
     </Link>

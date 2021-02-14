@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`displays an album renders one single album 1`] = `
+<DocumentFragment>
+  <a
+    href="/releases/name/title/albumbId/songTitle/songTitle"
+  >
+    <figure>
+      <p>
+        songTitle
+      </p>
+    </figure>
+  </a>
+</DocumentFragment>
+`;

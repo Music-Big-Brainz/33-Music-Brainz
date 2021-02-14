@@ -21,7 +21,7 @@ export default class App extends Component {
               exact 
               path="/releases/:artistId"
               render={ (routerProps) => <AlbumPage {...routerProps} /> } />
-            <Route 
+            <Route
               exact 
               path="/releases/title/:albumId/:title"
               render={ (routerProps) => <RecordingPage {...routerProps} /> } />
