@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`displays an Artist renders one single artist 1`] = `
+<DocumentFragment>
+  <a
+    href="/releases//"
+  >
+    <figure>
+      <p />
+      <p />
+    </figure>
+  </a>
+</DocumentFragment>
+`;
