@@ -14,7 +14,7 @@ export const findArtistByName = (search) => {
 
 export const findAlbumsByArtistId = (id) => {
   return fetch(
-    `http://musicbrainz.org/ws/2/release?artist=${id}&fmt=json`
+    `https://musicbrainz.org/ws/2/release?artist=${id}&fmt=json`
   )
     .then((res) => res.json())
     .then(({ releases }) =>
@@ -28,7 +28,7 @@ export const findAlbumsByArtistId = (id) => {
 
 export const findRecordingsByAlbumId = (id) => {
   return fetch(
-    `http://musicbrainz.org/ws/2/recording?release=${id}&fmt=json`
+    `https://musicbrainz.org/ws/2/recording?release=${id}&fmt=json`
   )
     .then((res) => res.json())
     .then(({ recordings }) => 
